@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-	@yield('header')
+<head>
+  <meta charset="UTF-8">
+  <title>CashNow.ph @yield('page-title')</title>
+  <!-- butang diri mga css files na dapat gina load sa tanan pages. bootstrap, font-awesome, etc. -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  @yield('css')
+</head>
 <body>
 	@yield('body')
 	<!-- butang diri mga js files na dapat gina load sa tanan pages. bootstrap, etc. -->

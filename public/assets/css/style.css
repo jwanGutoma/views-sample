@@ -1,0 +1,17 @@
+body{
+	margin-top: 83px;
+}
+
+.panel-body ul li {
+	list-style: none;
+}
+
+.panel-body{
+	padding-left: 1px;
+}
+
+.btn-success{
+	width: 180px;
+	position: relative;
+	left: 40px;
+}
